@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Workly",
+  "homepage_url": "http://localhost:8080/",
+  "description": "A Vue Browser Extension",
+  "default_locale": "en",
+  "permissions": [
+    "<all_urls>",
+    "*://*/*"
+  ],
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "browser_action": {
+    "default_title": "__MSG_extName__",
+    "default_icon": {
+      "19": "icons/19.png",
+      "38": "icons/38.png"
+    }
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "version": "0.1.0",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzETZathvSPh52A/IDvi0rypNbr6LxOh9Y9XDQX8xIlPeEqxFzLhF7GE/1ulHng1d9eCfy2J3raDDf2P9JOEyoYh4rBykKGkRs0A+js0PXrIhIUPTt6n0azGUkMrqShI+SPmWiGiJawVFBweBpiX53fJ3BgO7WhLHRHSRs/+ag6e6yzyigHo/0+RfZDqLQu4syvExzm8GSDA7qss9Rx3Vrw7kObehoCWB7cUk6KpZEB3qHZP67Ne0FlCIurrpdrvB9s8simmqYfWdAdr1rVbTYEIdUrKa/MIKX/3uUIk52+9i4d4ZFUHfOo4NQiM/Ou4PkKIvu3oViBKwpzwY/yyfEQIDAQAB"
+}
